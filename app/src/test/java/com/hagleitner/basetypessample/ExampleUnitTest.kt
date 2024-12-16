@@ -13,7 +13,7 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        HsMDeviceCodeParser.parseCode("yourCode")
+        HsMDeviceCodeParser.parseCode("yourQrCode3separatedRows")
         assertEquals(4, 2 + 2)
     }
 }
