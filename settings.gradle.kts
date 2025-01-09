@@ -29,6 +29,14 @@ dependencyResolutionManagement {
                 password = githubPackagesPassword
             }
         }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://github.com/Hagleitner-HsM/hsm-device-communications-kmm-distribution")
+            credentials {
+                username = githubPackagesUsername
+                password = githubPackagesPassword
+            }
+        }
     }
 }
 

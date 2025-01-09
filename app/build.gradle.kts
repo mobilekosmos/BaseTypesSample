@@ -45,4 +45,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.hagleitner.hsmbasetypes:shared-android:0.1.0-alpha2")
+    implementation("com.hagleitner.hsmdevicecommunications:shared-android:0.2.0-alpha.1")
 }
